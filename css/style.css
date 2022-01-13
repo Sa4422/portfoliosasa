@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    background-image: url(capa.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes go-back {
+    0% {
+        transform: translateX(500px);
+        color: transparent;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+h1{
+    color: white; 
+    font-size: 80px ;
+    text-align: center;
+    animation: go-back 2s;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    animation: go-back 2s;
+}
+.sumario{
+    color: white;
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+.links{
+    color: white;
+    font-size: 30px;
+}
+.bolha{
+    border-radius: 100%;
+    border: 1px solid  rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);
+}
+.links :hover{
+    color: aqua;
+    font-size: 34px;
+}
+button:hover{
+  background-color: #1f1f1f;
+    border-color: #1f1f1f;
+    border-radius: 17px;
+    border-width: 5px;
+    font-size: 26px;
+    color: white;
+    border-collapse: collapse;
+    float: right;
+    text-align: right !important;  
+}
